@@ -1,0 +1,58 @@
+body {margin: 0;}
+
+ul.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  li {float: left;
+    position: relative;
+    left: 32%;
+padding-top: 20px;
+padding-bottom: 30px;
+width: 120px;
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 23px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 15.86px;
+    
+  }
+}
+.logo{
+    position: relative;
+    left: -50%;
+margin-top: 1%;
+}
+.thefox1{
+    position: relative;
+    left: -49%;
+margin-top: 1%;
+font-size: 35.69px;
+color: white;
+font-family: 'Lato', sans-serif;
+font-weight: 900;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  ul.nav-links li, 
+  ul.nav-links li {float: none;}
+  .thefox1{
+      position: relative;
+      margin-left: 83%;
+  }
+  .logo{
+    margin-left: 92%;
+  }
+}
