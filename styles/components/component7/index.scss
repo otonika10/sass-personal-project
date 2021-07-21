@@ -1,0 +1,262 @@
+//component7
+
+.cont4{
+    display: flex;
+    min-height: 528px;
+    flex-basis: 100%;
+    flex-basis: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+    .item13 {
+
+        min-height: 527px;
+        max-height: 1000px;
+        flex-basis: 50%;
+        background-color: white;
+        margin-right: 1px;
+    }
+}
+
+.item14 {
+
+    height: 527px;
+    flex-basis: 48%;
+
+    background-color: white;
+    
+}
+.move{
+    position: relative;
+    top: 17.5%;
+    left: 2.5%;
+    width: 90%;
+}
+progress {
+	display:inline-block;
+	width:80%;
+	height:10px;
+	padding:15px 0 0 0;
+	margin:0;
+	background:none;
+	border: 0;
+	border-radius: 15px;
+	text-align: left;
+	position:relative;
+    left: -10%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+    padding: 2%;
+    
+}
+progress::-webkit-progress-bar {
+	height: 20px;
+	width:80%;
+	margin:0 auto;
+    padding: 0.7%;
+	background-color: rgb(238, 235, 235);
+	border-radius: 15px;
+    border:1px solid silver;
+
+}
+progress::-webkit-progress-value {
+	display:inline-block;
+	float:left;
+	height:10px;
+	margin:0px -10px 0 0;
+	background: rgb(7, 245, 193);
+	border-radius: 15px;
+	box-shadow:0px 0px 6px #777 inset;
+}
+progress:after {
+	margin:-26px 0 0 -7px;
+
+	display:inline-block;
+	float:left;
+	content: attr(value) '%';
+}
+.bord{
+    position: relative;
+    top: 26.5%;
+    left: 40%;
+    border: 1px solid black;
+    height: 38px;
+    width: 59.5%;
+    background-color: rgb(214, 212, 212);
+}
+.solution{
+    position: relative;
+    top: 26.5%;
+    left: 40%;
+    border: 1px solid black;
+    height: 165px;
+    width: 59.5%;
+    margin-top: 1%;
+    background-color: white;
+    .solin{
+        position: relative;
+        border-bottom: 1px solid black;
+        height: 38px;
+        width: 100%;
+        background-color: white;
+        .span1{
+            position: relative;
+            left: 2%;
+            
+            font: 30px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: $hovercol;
+        
+        }
+        .inbord{
+            
+
+
+            height: 38px;
+            width: 5%;
+            background-color: white;
+            span{
+                position: relative;
+                top: 30%;
+                
+                font-family: 'Lato', sans-serif;
+
+                font-weight: 900;
+            }
+        }
+        .rect{
+            height: 80px;
+            width: 25%;
+            border: 1px solid black;
+            position: relative;
+            margin-top: 1%;
+        }
+        .soltxt{
+           position: relative;
+           left: 30%;
+            margin-top: -17%;
+            height: 105px;
+            width: 65%;
+            
+            font-family: 'Lato', sans-serif;
+
+            font-weight: 400;
+            span{
+                position: relative;
+                left: 3%;
+                top: 10%;
+                line-height: 23px;
+            }
+        }
+    }
+}
+.bord span{
+    position: relative;
+    top: 20%;
+    left: 3%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size:  14px;
+    letter-spacing: 1px;
+
+
+}
+.inbord {
+    position: relative;
+    top: -50%;
+    left: 95%;
+    border: 1px solid black;
+    height: 38px;
+    width: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.bord1{
+    height: 110px;
+    
+    background-color: white;
+}
+.in1{
+    position: relative;
+    top: -73%;
+    left: 32%;
+    width: 67.5%;
+    height: 100%;
+    border-right: none;
+}
+.rect{
+    position: relative;
+    top: 3%;
+    left: 3%;
+    height: 70%;
+    width: 25%;
+    background-color: $sil;
+    border: 1px solid $sil;
+}
+
+
+
+
+
+
+.bord2{
+    position: relative;
+    top: 11%;
+    left: 58%;
+    height: 115px;
+    background-color: white;
+    border-top: none;
+    width: 41.7%;
+    border-left: none;
+
+    }
+.item13 .span1{
+    position: relative;
+    top: 18%;
+    left: 40%;
+    font: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+@media screen and (max-width: 800px) {
+    .item13{
+        flex-basis: 100%;
+        .span1{
+            position: relative;
+            left: 0%;
+        }
+        .bord{
+            position: relative;
+            left: 2%;
+            width: 340px;
+
+        }
+        
+        .solution{
+            left: 2%;
+            height: 200px;
+            width: 340px;
+            .soltxt{
+                
+                position: relative;
+                top: -140%;
+
+                
+            }
+            .rect{
+                position: relative;
+                top: 80%;
+            }
+        }
+    }
+  .item14{
+      flex-basis: 100%;
+
+       
+  }
+  
+    }
