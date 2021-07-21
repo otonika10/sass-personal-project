@@ -1,0 +1,73 @@
+.item6{
+    margin-top: 5%;
+    background-color: white;
+    flex-basis: 30%;
+    min-height: 744px;
+    max-height: 1500px;
+    margin-right: 1%;
+    margin-left: 19.7%;
+    .head{
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        position: relative;
+    
+        letter-spacing: 3px;
+    }
+    .undertxt2{
+        position: relative;
+    
+    line-height: 23px;
+    }
+    .ul2{
+        position: relative;
+        left: -8%;
+        margin-top: 3%;
+        line-height: 15px;
+        
+    }
+    .li {
+        list-style: none;
+        font-size: 14px;
+     padding: 0.7%;
+     letter-spacing: 1px;
+    }
+    
+    .button1{
+        position:relative;
+        margin-top:3% ;
+        left: 1%;
+        width: 175px;
+        height: 45px;
+        background-color: white;
+        border-color: black;
+        border-radius: 5px;
+                font-family: 'Lato', sans-serif;
+        font-weight: 900;
+    }
+}
+.item7{
+    background-color: white;
+    flex-basis: 40%;
+    min-height: 570px;
+    max-height: 1500px;
+    .iphon{
+        position: relative;
+        top: 12%;
+        left: 8.5%;
+        width: 539px; 
+        height: 738px; 
+        object-fit: cover;
+        object-position: 20% 10%; 
+        
+        
+        }
+}
+@media screen and (max-width: 800px) {
+    .item7{
+        .iphon{
+            width: 300px;
+            height: 500px;
+        }
+    }
+        }
