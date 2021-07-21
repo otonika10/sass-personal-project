@@ -1,0 +1,41 @@
+//component4
+.cont2{
+
+    min-height: 360px;
+    max-height: 1000px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    //for loop
+    @for $i from 3 through 5 {
+        .item#{$i} {
+            flex-basis: 33.3%;
+            min-height: 360px;
+            max-height: 1000px;
+
+            @include itemtxts;    
+            @include button2;  
+
+        }
+    }
+
+//each
+    $colors:(3:$blue, 4:$skyblue, 5:$red);
+    @each $index, $color in $colors {
+        .item#{$index}{
+            background-color: $color;
+        }
+    }
+
+}
+@media screen and (max-width: 800px) {
+ 
+    .cont2 {
+        .item3,.item4,.item5{
+            flex-basis: 100%;
+        }
+
+        }
+
+    }
