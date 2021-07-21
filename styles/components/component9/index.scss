@@ -1,0 +1,116 @@
+//component9
+.comp9{
+    min-height: 600px;
+    max-height: 1200px;
+    flex-basis: 100%;
+    background-color: $black1;
+    margin-right: 0%;
+    
+}
+.arrow3{
+    position: relative;
+    top: 14%;
+    width: 50px;
+    border-color: $black1;
+}
+.arrow3 button{
+    border-color: $black1;
+}
+.arrow4 button{
+    border-color: $black1;
+}
+@include button;
+.arrow4{
+    position: relative;
+    left: 97%;
+top: 5%;
+    width: 50px;
+    border-color: $black1;
+}
+.comp9 span{
+    font-size: 24px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    width: 200px;
+}
+.comp9txt{
+    position: relative;
+    left: 20%;
+    top: 36%;
+    width: 65%;
+    height: 200px;
+    border-color: 1px solid white;
+    line-height: 34px;
+    span span{
+        position: relative;
+        left: 10%;
+    }
+}
+
+.comp9footer span{
+    position: relative;
+
+    left: 33%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.radio{
+    position: relative;
+    top: 39%;
+    left: 47%;
+    width: 100px;
+}
+.comp10{
+    display: flex;
+    height: 710px;
+   flex-basis: 100%;
+    background-color: $black2;
+    overflow: hidden;
+}
+.box1{
+    margin-top: 3%;
+    height: 555px;
+    flex-basis: 18%;
+    background-color: $black2;
+    margin-right: 1px;
+
+}
+.box2{
+    margin-top: 3%;
+    height: 555px;
+    flex-basis: 16%;
+    background-color: $black2;
+    margin-right: 1px;
+    position: relative;
+
+}
+.logo2{
+    position: relative;
+    top: 3%;
+    left: 13%;
+}
+@media screen and (max-width: 800px) {
+    .comp9{
+        overflow: hidden;
+        flex-basis: 100%;
+        .comp9txt{
+            position: relative;
+            top: 20%;
+            font-size: 14px;
+            span{
+                font-size: 14px;
+            }
+            .comp9footer{
+                position: relative;
+                left: -30%;
+            }
+
+        }
+        .arrow4{
+            position: relative;
+            left: 85%;
+            top: 5%;
+        }
+    }
+        }
