@@ -1,0 +1,170 @@
+//component6
+.item8 {
+
+    height: 210px;
+    flex-basis: 100%;
+    background-color: $black2;
+    span{
+        color: white;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        position: relative;
+        top: 68%;
+        left: 43%;
+        letter-spacing: 3px;
+    
+    }
+
+}
+.item9 {
+
+    height: 417px;
+    flex-basis: 35%;
+
+    background-color: $black2;
+    .cir1{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: $sil;
+        position: relative;
+        left: 68%;
+        top: 8%;
+        .cirin{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: white;
+            left: 4.5%;
+            top: 5%;
+            .check{
+                position: relative;
+                top: 32%;
+                left: 37%;
+                font-size: 30px;
+            }
+        }
+    }
+    .nums{
+        position: relative;
+        left: 68%;
+        top: 17%;
+        color: white;
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+    
+        span{
+            border-top: 3px solid $skyblue;
+        
+            font-size: 18px;
+        position: relative;
+        left: 1.5%;
+        }
+    }
+
+
+}
+
+.item10 {
+
+    height: 417px;
+    flex-basis: 15%;
+    background-color: $black2;
+    @include circheck;
+    @extend .item11;
+}
+
+.item11 {
+
+    height: 417px;
+    flex-basis: 15%;
+    background-color: $black2;
+    @include circheck;
+}
+.item12 {
+
+    height: 417px;
+    flex-basis: 35%;
+    background-color: $black2;
+    .cir1{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: $sil;
+        position: relative;
+        left: 17%;
+        top: 8%;
+        .cirin{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: white;
+            left: 4.5%;
+            top: 5%;
+            .check{
+                position: relative;
+                top: 32%;
+                left: 37%;
+                font-size: 30px;
+            }
+        }
+    }
+    .nums{
+        position: relative;
+        left: 20%;
+        top: 17%;
+        color: white;
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+        .changeme{
+            margin-left: -5%;
+        }
+        .changeme2{
+            margin-left: 5%;
+        }
+        span{
+            border-top: 3px solid $skyblue;
+        
+            font-size: 18px;
+        position: relative;
+        left: 1.5%;
+        }
+    }
+}
+@media screen and (max-width: 800px) {
+    
+        .item8 span{
+            position: relative;
+            left: 15%;
+        }
+        .item9,.item10,.item11,.item12{
+            flex-basis: 100%;
+        }
+        .item9 .cir1,.item9 .nums,.item10 .cir1,.item10 .nums{
+            position: relative;
+            left: 38%;
+        }
+        .item11 .cir1{
+            position: relative;
+            left: 38%;
+        }
+        .item12 .cir1,.item12 .nums{
+            position: relative;
+            left: 38%;
+        }
+        .changeme{
+           position: relative;
+           left: 100%;
+            
+        }
+
+
+    
+}
