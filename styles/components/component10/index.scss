@@ -1,0 +1,207 @@
+//component10
+.comp10{
+    display: flex;
+
+    min-height: 710px;
+    max-height: 2000px;
+}
+    .box1{
+        $height:555px;
+        margin-top: 3%;
+    height: $height;
+
+        flex-basis: 18%;
+        @if $height {
+            background-color: $black2;
+        }
+
+        margin-right: 1px;
+    
+    }
+    
+    .box2{
+
+        .logo2{
+            position: relative;
+            top: 3%;
+            left: 13%;
+        }
+    }
+
+@for $i from 2 through 4 {
+    .box#{$i} {
+        
+        margin-top: 3%;
+        $height:555px;
+        min-height: $height;
+        flex-basis: 16%;
+        margin-right: 1px;
+        
+        //if
+        @if $height {
+            background-color: $black2;
+        }
+    }
+}
+
+.box3{
+    span{
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        color: rgb(145, 145, 145);
+        position: relative;
+        top: 8%;
+        left: 7%;
+       
+    
+    }
+    .textcont2{
+        position: relative;
+        top: 14%;
+        left: 8%;
+        .textcont3{
+            position: relative;
+        margin-top: -13%;
+        left: 17%;
+            width: 200px;
+            height: 100px;
+        
+            line-height: 23px;
+        
+        }
+
+        button{
+            position: relative;
+            border: $sil;
+            background-color: $sil;
+            margin-top: -5%;
+            color: $sil;
+        }
+        button:hover{
+            background-color: $hovercol;
+            color: white;
+        
+        }
+        .textheader{
+            position: relative;
+            top: 10%;
+            left: 16%;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+    }
+}
+
+.box4 .boxhead{
+    font-size: 18px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    position: relative;
+    top: 8%;
+    left: 8%;
+    letter-spacing: 1px;
+}
+.boxhead1{
+    font-size: 18px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    position: relative;
+    top: 17%;
+    left: 8%;
+    letter-spacing: 1px;
+}
+.box4 ul{
+    position: relative;
+    top: 16%;
+    line-height: 40px;
+
+}
+.buttons{
+    position: relative;
+    top: 13%;
+    background-color: $black2;
+    border-color:$sil ;
+}
+.box5{
+    margin-top: 3%;
+    height: 555px;
+    flex-basis: 16%;
+    background-color: $black2;
+    margin-right: 1px;
+
+}
+.box5 span{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    top: 8%;
+    left: 6%;
+
+}
+.box5 .textheader{
+    position: relative;
+    top: 13%;
+}
+.box5 .textcont3{
+    position: relative;
+    top: 15%;
+    font-size: 14px; ;
+}
+.box5 .textcont4{
+    position: relative;
+    top: 20%;
+    font-size: 14px; ;
+}
+
+.box6{
+    margin-top: 3%;
+    height: 555px;
+    flex-basis: 15%;
+    background-color: $black2;
+    margin-right: 1px;
+}
+.box2 span{
+    font-size: 35.69px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+
+}
+.smalltxt{
+    font-size: 14px;
+}
+.textcont span{
+    font-size: 14px;
+}
+.textcont{
+    position: relative;
+    left: -5%;
+    margin-top: 7%;
+    height: 220px;
+    width: 90%;
+    line-height: 23px;
+    
+}
+
+.logo2 a{
+    color: $hovercol;
+}
+.box4 ul a:hover{
+    color: $hovercol;
+}
+.box4 li{
+    color: $hovercol;
+}
+@media screen and (max-width: 800px) {
+    .box3,.box4,.box5,.box6{
+        flex-basis: 100%;
+        min-height: 555px;
+        max-height: 1000px;
+    }
+}
