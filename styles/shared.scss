@@ -1,0 +1,93 @@
+@mixin button {
+    button{
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+        background-color: #383838;
+        color: white;
+        border-color: white;
+    
+        }
+        button:hover{
+        background-color: $hovercol;
+        color: #383838;
+        }
+}
+@mixin itemtxts {
+    .bigtxt{
+        margin-top: 12%;
+        position: relative;
+        left: 12%;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        color: white;
+        width: 70%;
+        line-height: 18px;
+        
+    }
+    .txtsml{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+@mixin button2{
+    .button2{
+        position: relative;
+        margin-top: 5%;
+        left: 13%;
+        width: 150px;
+        height: 50px;
+        border-color: white;
+        border-radius: 5px;
+        background-color: rgb(93, 93, 207);
+        color: white;
+        
+    }
+}
+
+@mixin circheck {
+    .cir1{
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: $sil;
+        position: relative;
+        left: 30%;
+        top: 8%;
+        .cirin{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: white;
+            left: 4.5%;
+            top: 5%;
+            .check{
+                position: relative;
+                top: 32%;
+                left: 37%;
+                font-size: 30px;
+            }
+        }
+    }
+    .nums{
+        position: relative;
+        left: 30%;
+        top: 17%;
+        color: white;
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        letter-spacing: 1px;
+    
+        span{
+            border-top: 3px solid skyblue;
+        
+            font-size: 18px;
+        position: relative;
+        left: 1.5%;
+        }
+    }
+}
