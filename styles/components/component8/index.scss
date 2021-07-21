@@ -1,0 +1,219 @@
+//component8
+.item15{
+    border-top: 1px solid $sil;
+    flex-basis: 100%;
+    height: 230px;
+    background-color:rgb(243, 242, 242);
+    span{
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        position: relative;
+        left: 39%;
+        top: 46%;
+        letter-spacing: 3px;
+        flex-wrap: wrap;
+    
+    }
+    .p{
+        font-size: 18px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        position: relative;
+        left: 36%;
+        top: 51%;
+        letter-spacing: 1px;
+        height: 100%;
+    }
+}
+
+
+
+.cont5{
+    display: flex;
+    min-height: 1215px;
+    max-height: 6000px;
+    width: 100%;
+    background-color:rgb(243, 242, 242);
+    flex-wrap: wrap;
+    overflow: hidden;
+    .span2{
+font-family: 'Lato', sans-serif;
+            font-weight: 400;
+    }
+
+    .item16{
+
+        
+        flex-basis: 19%;
+    
+        height: 539px;
+        background-color:rgb(243, 242, 242);
+        margin-right: 1%;
+    }
+    .item17{
+        border:1px solid silver;
+        
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1.5%;
+        .button5{
+            position: relative;
+            top: 7%;
+        }
+    }
+    .item18{
+        border:1px solid silver;
+        
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1.5%;
+    }
+    .item19{
+        border:1px solid silver;
+        
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1.5%;
+    }
+    .item20{
+        border:1px solid silver;
+       
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1%;
+    }
+    .item21{
+    
+        
+        flex-basis: 14%;
+        height: 539px;
+        background-color:rgb(243, 242, 242);
+        margin-right: 1%;
+    }
+    .item22{
+        
+       
+        flex-basis: 19%;
+        height: 539px;
+        background-color:rgb(243, 242, 242);
+        margin-right: 1%;
+    }
+    .item23{
+        border:1px solid $sil;
+        margin-top:-1.5%;
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1.5%;
+    }
+    .item24{
+        border:1px solid $sil;
+        margin-top:-1.5%;
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1.5%;
+    }
+    .item25{
+        border:1px solid $sil;
+        margin-top:-1.5%;
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1.5%;
+    }
+    .item26{
+        border:1px solid $sil;
+        margin-top:-1.5%;
+        flex-basis: 14%;
+        height: 539px;
+        background-color: white;
+        margin-right: 1%;
+    }
+    .item27{
+        margin-top: 1.3%;
+        flex-basis: 13%;
+        height: 539px;
+    
+        background-color:rgb(243, 242, 242);
+        margin-right: 1%;
+    }
+    .prodbor{
+        height: 270px;
+        border-bottom:1px solid $sil;
+        width: 100%;
+    }
+    span{
+        font-size: 18px;
+        font-weight: 900;
+        position: relative;
+        top: 2.5%;
+        left: 5%;
+        letter-spacing: 2px;
+    }
+    .span2{
+
+        font-size: 14px;
+        font-weight: 400;
+        color: $sil;
+        span{
+
+            font-size: 14px;
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            height: 200px;
+            position: relative;
+            top: 3%;
+            left: -2%;
+            word-spacing: 10px;
+        }
+    }
+    .button5{
+        position: relative;
+        top: 10%;
+        left: 7%;
+        width: 230px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: white;
+        border-color: black;
+        font-family: 'Lato', sans-serif;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .button5:hover{
+        background-color: $hovercol;
+        color: white;
+        border-color: $hovercol;
+    
+    }
+}
+@media screen and (max-width: 800px) {
+        .item15{
+            flex-basis: 100%;
+            span{
+                position: relative;
+                left: 0%;
+                top: 0%;
+            }
+            .p{
+                position: relative;
+                left: 0%;
+                top: 0%;
+            }
+        }
+        .item17{
+            position: relative;
+            left: -20%;
+        }
+        .cont5{
+            .button5{
+                width: 200px;
+            }
+        }
+        }
